@@ -1,0 +1,24 @@
+## Conclusion
+### Business Conclusion
+In conclusion, the churn prediction program for bank customers based on machine learning analysis provides valuable insights into customer behavior and characteristics that influence churn. The program utilizes a dataset of 10,000 customers with 14 variables, allowing for accurate predictions and segmentation of at-risk customers.
+
+The analysis reveals several important findings. Firstly, the average credit score of customers is fair, and lower credit scores are correlated with higher churn rates. This suggests that customers with lower credit scores are more likely to leave the bank.
+
+Secondly, age is a significant factor in customer churn. Older customers, particularly those around 45 years old, are more likely to exit the bank. This insight can help the bank tailor retention strategies to specific age groups.
+
+Thirdly, the number of products used by customers plays a role in churn. Customers using Product 3 and 4 are significantly more likely to leave the bank, indicating potential issues with these products or the bank's ability to meet their needs.
+
+Additionally, customer location is relevant, with customers from Germany more likely to churn compared to other geographical regions. This information can assist the bank in targeting specific regions for retention efforts or exploring reasons behind the higher churn rate in Germany.
+
+Furthermore, owning a credit card or being an active member does not appear to have a significant impact on customer churn. However, female customers are more likely to leave the bank, suggesting a need for gender-specific retention strategies.
+
+In summary, the churn prediction program provides actionable insights for the bank to identify at-risk customers, develop personalized retention strategies, and improve products and services based on customer feedback. By leveraging this machine learning model, the bank can proactively retain valuable customers, reduce churn, and increase overall revenue and market share.
+### Model Conclusion
+
+In conclusion, the machine learning model developed for churn prediction in the bank customer dataset provides promising results. The model achieves an accuracy score of 0.8150 using Logistic Regression, with precision and recall values of 0.8260 and 0.9696 for class 0 (customers who did not exit) and 0.6786 and 0.2394 for class 1 (customers who exited) respectively.
+
+Further analysis of the model's performance reveals that other algorithms such as LightGBM, CatBoost, GBM, RF, XGBoost, KNN, and CART were also implemented and evaluated. Among these, the LightGBM model achieved the highest accuracy score of 0.85333. However, the precision and recall values for class 1 were 0.72414 and 0.49606, respectively. This indicates that while the model performs well in classifying customers who did not exit, there is room for improvement in correctly identifying customers who did exit.
+
+The precision and recall values for class 1 in the XGBoost model, with an accuracy score of 0.84933, were 0.70938 and 0.48819, respectively. This model strikes a good balance between accuracy and correctly identifying customers who exited the bank. The confusion matrix for the XGBoost model shows that it correctly classified 2273 instances of customers who did not exit and 288 instances of customers who exited, with 92 false positives and 347 false negatives.
+
+In conclusion, the XGBoost model provides the best performance among the evaluated algorithms, with an accuracy score of 0.84933. However, there is still room for improvement in correctly identifying customers who exited the bank. Further enhancements and fine-tuning can be implemented to enhance the model's performance and better serve the bank's churn prediction needs.
