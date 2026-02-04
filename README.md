@@ -94,31 +94,3 @@ Based on the information provided, a possible business strategy for the bank cou
 The bank could leverage the insights from the churn prediction program to develop personalized retention strategies for at-risk customers. This could include improving products and services based on customer feedback, offering incentives or promotions to retain customers, and proactively reaching out to at-risk customers to address their concerns.
 
 By implementing these strategies, the bank can proactively retain valuable customers, reduce churn, and increase overall revenue and market share. 
-
-## Streamlit App
-
-![Streamlit](docs/images/Streamlit%20app.png)
-
-## API Testing Using Postman
-
-![Postman](docs/images/Postman%20API%20Testing.png)
-Json data
-```json
-{
-   "data":{
-      "RowNumber":5,
-      "CustomerId":15737888,
-      "Surname":"Mitchell",
-      "CreditScore":850,
-      "Geography":"Spain",
-      "Gender":"Female",
-      "Age":43,
-      "Tenure":2,
-      "Balance":125510.82,
-      "NumOfProducts":1,
-      "HasCrCard":1,
-      "IsActiveMember":1,
-      "EstimatedSalary":79084.1
-   }
-}
-```
